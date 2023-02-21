@@ -1,0 +1,7 @@
+apiVersion: pipelinesascode.tekton.dev/v1alpha1
+kind: Repository
+metadata:
+  name: scooby-sdn
+  namespace: thing-a-ma-5g-build
+spec:
+  url: https://github.com/rh-janus/scooby-sdn
