@@ -1,0 +1,7 @@
+apiVersion: pipelinesascode.tekton.dev/v1alpha1
+kind: Repository
+metadata:
+  name: test-quarkus-project
+  namespace: thing-a-ma-5g-build
+spec:
+  url: https://github.com/rh-janus/test-quarkus-project
